@@ -19,7 +19,6 @@ body {
 
     .main-content {
         margin-left: 100px;
-        /* Ajuste este valor para corresponder à largura da sua barra lateral */
     }
 }
 
@@ -44,9 +43,7 @@ body {
     height: 80px;
     margin: 20px;
     border-radius: 50%;
-    /* Isso fará com que a imagem fique em formato de círculo */
     object-fit: cover;
-    /* Isso fará com que a imagem cubra todo o espaço disponível sem distorcer sua proporção */
 }
 
 
