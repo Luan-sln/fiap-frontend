@@ -1,0 +1,197 @@
+.sidebar {
+    background-color: #00142f;
+}
+
+body {
+    background-color: #d0d0d0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        width: 100px;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .main-content {
+        margin-left: 100px;
+        /* Ajuste este valor para corresponder à largura da sua barra lateral */
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 13%;
+        border-top-right-radius: 55px;
+        border-top-left-radius: 55px;
+    }
+}
+
+.d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+#client-photo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    /* Isso fará com que a imagem fique em formato de círculo */
+    object-fit: cover;
+    /* Isso fará com que a imagem cubra todo o espaço disponível sem distorcer sua proporção */
+}
+
+
+
+
+nav a i {
+    font-size: 165%;
+    padding: 15px;
+}
+
+.sidebar-icons {
+    color: aliceblue;
+}
+
+.sidebar-icons:hover {
+    color: #00a8cf;
+    border-bottom: 5px solid;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.sidebar-icons:focus {
+    border-bottom: 5px solid white;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.investir-btn {
+    color: green;
+    border-radius: 2px solid;
+    border-radius: 35%;
+    background-color: white;
+    position: relative;
+    top: -50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-title {
+    font-weight: bold;
+}
+
+
+
+.saldo-container {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+
+.saldo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.saldo-valor {
+    color: black;
+    padding: 10px;
+}
+
+.limite {
+    font-size: 16px;
+}
+
+.extrato-link {
+    color: blue;
+    text-decoration: none;
+}
+
+
+.container-report {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ver-mais {
+    color: blue;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item h3 {
+    font-size: 21px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.icon-text {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    margin-right: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+}
+
+.valor {
+    color: #9f0000 !important;
+    font-weight: bold;
+    font-size: 20px;
+}

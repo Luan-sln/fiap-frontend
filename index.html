@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seu Site Responsivo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex flex-column flex-md-row">
+        <div class="sidebar d-flex flex-row flex-md-column align-items-center p-3 px-md-4 border-bottom shadow-sm">
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a class="sidebar-icons p-2" href="#"><i class="fas fa-home"></i></a>
+                <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-chart-bar"></i></a>
+                <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-briefcase"></i></a>
+                <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-money-check-dollar"></i></a>
+                <a class="sidebar-icons p-2 d-md-none" href="#"><i class="fas fa-plus"></i></a>
+            </nav>
+        </div>
+
+        <div
+            class="sidebar d-flex flex-row flex-md-column align-items-center p-3 px-md-4 border-bottom shadow-sm d-md-none">
+            <nav class="my-2 my-md-0 mr-md-3 w-100 d-flex justify-content-between">
+                <div class="d-flex">
+                    <a class="sidebar-icons p-2" href="#"><i class="fas fa-home"></i></a>
+                    <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-chart-bar"></i></a>
+                </div>
+                <a class="investir-btn p-2 d-md-none" href="#"><i class="fas fa-plus fa-2x"></i></a>
+                <div class="d-flex">
+                    <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-briefcase"></i></a>
+                    <a class="sidebar-icons p-2" href="#"><i class="fa-solid fa-money-check-dollar"></i></a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="main-content container mt-5 flex-grow-1">
+        <div class="d-flex align-items-center">
+            <img src="./img/clienteFeliz.jpg" class="rounded-circle ml-3" id="client-photo">
+            <h1 class="welcome-title text-left">Olá, Dwight</h1>
+        </div>
+        <div class="saldo-container">
+            <div class="saldo-header">
+                <a>Saldo</a>
+                <a href="#" class="extrato-link">Ver Extrato <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <h2 class="saldo-valor">R$ 7.337,77</h2>
+            <a class="limite">Limite disponível: R$ 500,00</a>
+        </div>
+
+        <div class="container-report">
+            <div class="card">
+                <div class="card-header">
+                    <span>Hoje, 10 de abril</span>
+                    <a href="#" class="ver-mais">Ver mais</a>
+                </div>
+                <div class="card-body">
+                    <div class="item">
+                        <div class="icon-text">
+                            <i class="fas fa-car icon"></i>
+                            <div>
+                                <h3>Transporte</h3>
+                                <p class="subtitulo">Uber</p>
+                            </div>
+                        </div>
+                        <a class="valor">-R$ 12,23</a>
+                    </div>
+                    <div class="item">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-chart-simple icon"></i>
+                            <div>
+                                <h3>Investimentos</h3>
+                                <p class="subtitulo">Bolsa de Valores</p>
+                            </div>
+                        </div>
+                        <a class="valor">-R$ 150,00</a>
+                    </div>
+                    <div class="item">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-money-bills icon"></i>
+                            <div>
+                                <h3>Saldo em conta</h3>
+                                <p class="subtitulo">Salário</p>
+                            </div>
+                        </div>
+                        <a class="valor", style="color: green !important;">+R$ 7.500,00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
